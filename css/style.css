@@ -1,0 +1,102 @@
+.gridcontainer {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80% ;
+    grid-template-areas: 
+    'hd'
+    'nav';
+    gap: 4px;
+    
+    }
+    
+    .wrapper{
+        grid-area: nav;
+        contain: content;
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    body,ul{
+        margin: 0;
+        background-color: beige;
+    }
+    
+    p{
+        color: black;
+        contain: content;
+    }
+    
+    .menu2{
+        opacity: 0;
+        color:black;
+        background-color: beige;
+        contain: content;
+        height: 100%;
+        width: 100%;
+        grid-area: hd;
+    }
+    
+    .menu{
+        height: 100vh;
+        width: 80vw;
+        background: beige;
+        position: fixed;
+        top: 0;
+        left: -90vw;
+        transition: left 0.3s;
+        box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+        z-index: 10;
+    }
+
+    .katter{
+
+        padding: 40rem;
+    }
+    
+    .menu-button{
+        cursor: pointer;
+        display: inline;
+    }
+    
+    .menu-button i.material-icons{
+        font-size: 2.5rem;
+    }
+    
+    .show{
+        left: 0;
+    }
+    
+    .fade-layer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+        z-index: 5;
+    }
+    
+    .fade-layer.visible{
+        display: block;
+    }
+    
+    @media (min-width: 700px) {
+
+    
+        body{
+            background-color: beige;
+        }
+    
+    
+        .menu2{
+
+            contain: content;
+            height: 100%;
+            width: 100%;
+        }
+        
+    }
