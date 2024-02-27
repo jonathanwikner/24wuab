@@ -13,10 +13,42 @@
     
 }
     
-   
+
+.katt1{
+    grid-area: katt1;
+    flex-direction: column;
+    background-color: cyan;
+    line-height: 1px;
+    text-align: center;
+}
+
+.katt2{
+    grid-area: katt2;
+    flex-direction: column;
+    background-color: magenta;
+    line-height: 1px;
+    text-align: center;
+}
+.katt3{
+    grid-area: katt3;
+    flex-direction: column;
+    background-color: orange;
+    line-height: 1px;
+    text-align: center;
+}
+
+
+
+
 body{
     color: black;
     background: burlywood;
+}
+
+.kattimg{
+    width: 100%;
+    height: 80%;
+
 }
 
     .wrapper{
@@ -35,6 +67,8 @@ body{
     height: 100%;
     width: 100%; 
     grid-area: header;
+    justify-content: space-between;
+    display: flex;
 }
 
     p{
@@ -44,11 +78,22 @@ body{
     
     .menu2{
         color:black;
+        flex-direction: row;
         background-color: beige;
         contain: content;
         height: auto;
         width: auto;
         grid-area: nav;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .jobbigtext{
+        margin:100px;
+    }
+
+    .title{
+        text-align: center;
     }
     
     .menu{
@@ -72,6 +117,9 @@ body{
     .menu-button{
         cursor: pointer;
         display: inline;
+        grid-area: header;
+        background-color: beige;
+        width: auto
     }
     
 .menu-button i.material-icons{
@@ -98,5 +146,53 @@ body{
 }
     
 @media (min-width: 700px) {
+    .grid-container {
+        display: grid;
+        height: 100vh;
+        width: 100%;
+        grid-template-columns: 33% 33% 34% ;
+        grid-template-rows: 10% 30% 30% 30% ;
+        grid-template-areas: 
+        'header header header'
+        'syfte syfte syfte'
+        'katt1 katt2 katt3' 
+        'nav nav nav';
+        gap: 5px; 
         
+    }
+
+    .katt1{
+        grid-area: katt1;
+        flex-direction: row;
+        display: flex;
+        background-color: cyan;
+        line-height: 1px;
+        text-align: center;
+        text-orientation: upright;
+        contain: content;
+    }
+    
+    .katt2{
+        grid-area: katt2;
+        flex-direction: row;
+        display: flex;
+        background-color: magenta;
+        line-height: 1px;
+        text-align: center;
+        contain: content;
+    }
+    .katt3{
+        grid-area: katt3;
+        flex-direction: row;
+        display: flex;
+        background-color: orange;
+        line-height: 1px;
+        text-align: center;
+        contain: content;
+    }
+    .kattimg{
+        width: 80%;
+        height: 100%
+    
+    }
 }
