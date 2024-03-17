@@ -457,3 +457,27 @@ p{
         font-size: medium;
     }
 }
+
+@media (max-width: 700px){
+    .wrapper, .wrapper1,.wrapper2{
+        font-size: medium;
+    }
+    .kattimg{
+        width: 100%;
+        height: auto;
+    }
+    .jobbigtext{
+        margin: 30px;
+        font-size: small;
+    }
+    .menu2{
+        font-size: medium;
+    }
+    .adress{
+        width: 80%;
+        height: auto;
+    }
+    .Katter{
+        font-size: small;
+    }
+}
