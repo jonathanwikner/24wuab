@@ -94,6 +94,12 @@
     font-size: small;
 }
 
+h3{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
 .kattras6{
     grid-area: kattras6;
     flex-direction: column;
@@ -173,7 +179,9 @@ body{
     height: 100%;
     width: auto;
     font-size: medium;
+    text-align: center;
 }
+
     
 .wrapper2{
     color: black;
@@ -183,6 +191,7 @@ body{
     height: 100%;
     width: auto;
     font-size: medium;
+    text-align: center;
 }
  .wrapper1{
     color: black;
@@ -191,6 +200,7 @@ body{
     background-color: beige;
     height: auto;
     width: auto;
+    text-align: center;
 }
     
     
@@ -222,7 +232,7 @@ p{
     }
 
     .jobbigtext{
-        margin:30px;
+        margin: 10px;
         color: blue;
     }
 
@@ -295,7 +305,7 @@ p{
         gap: 5px; 
         
     }
-
+    
     .wrapper{
         color: black;
         grid-area: syfte;
@@ -304,6 +314,7 @@ p{
         height: 100%;
         width: auto;
         font-size: x-large;
+        text-align: center;
     }
 
     .wrapper1{
@@ -314,6 +325,8 @@ p{
         height: auto;
         width: auto;
         font-size: x-large;
+        text-align: center;
+
     }
 
     .kattras1{
@@ -323,6 +336,7 @@ p{
         line-height: 0px;
         text-align: center;
         font-size: large;
+        
     }
     
     .kattras2{
@@ -369,6 +383,7 @@ p{
         height: 100%;
         width: auto;
         font-size: large;
+        text-align: center;
     }
 
     .kattras6{
@@ -399,7 +414,7 @@ p{
         flex-direction: row;
         display: flex;
         background-color: cyan;
-        line-height: 1px;
+        line-height: 15px;
         text-align: center;
         text-orientation: upright;
         contain: content;
@@ -410,7 +425,7 @@ p{
         flex-direction: row;
         display: flex;
         background-color: magenta;
-        line-height: 1px;
+        line-height: 15px;
         text-align: center;
         contain: content;
     }
@@ -419,7 +434,7 @@ p{
         flex-direction: row;
         display: flex;
         background-color: orange;
-        line-height: 1px;
+        line-height: 15px;
         text-align: center;
         contain: content;
     }
