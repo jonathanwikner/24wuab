@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     width: 100%;
-    grid-template-columns: 33% 33% 33% ;
+    grid-template-columns: 30% 30% 30% ;
     grid-template-rows: 10% 20% 40% 30% ;
     grid-template-areas: 
     'header header header'
@@ -18,7 +18,7 @@
     height: 100vh;
     width: 100%;
     grid-template-columns: 33% 33% 33% ;
-    grid-template-rows: 10% 20% 40% 26% ;
+    grid-template-rows: 10% 20% auto 26% ;
     grid-template-areas: 
     'header header header'
     'syfte syfte syfte'
@@ -54,7 +54,7 @@
     flex-direction: column;
     background-color: beige;
     line-height: 0px;
-    text-align: center;
+    text-align: left;
     font-size: small;
 }
 
@@ -63,7 +63,7 @@
     flex-direction: column;
     background-color: beige;
     line-height: 0px;
-    text-align: center;
+    text-align: left;
     font-size: small;
 }
 
@@ -72,7 +72,7 @@
     flex-direction: column;
     background-color: beige;
     line-height: 0px;
-    text-align: center;
+    text-align: left;
     font-size: small;
 }
 
@@ -81,7 +81,7 @@
     flex-direction: column;
     background-color: beige;
     line-height: 0px;
-    text-align: center;
+    text-align: left;
     font-size: small;
 }
 
@@ -90,7 +90,7 @@
     flex-direction: column;
     background-color: beige;
     line-height: 0px;
-    text-align: center;
+    text-align: left;
     font-size: small;
 }
 
@@ -105,7 +105,7 @@ p{
     flex-direction: column;
     background-color: beige;
     line-height: 0px;
-    text-align: center;
+    text-align: left;
     font-size: small;
 }
 .adress1{
@@ -113,7 +113,8 @@ p{
     flex-direction: column;
     background-color: blanchedalmond;
     line-height: 1px;
-    text-align: center;
+    text-align: left;
+    contain: content;
 }
 
 .adress2{
@@ -121,27 +122,28 @@ p{
     flex-direction: column;
     background-color: blanchedalmond;
     line-height: 1px;
-    text-align: center;
+    text-align: left;
+    contain: content;
 }
 .adress3{
     grid-area: adress3;
     flex-direction: column;
     background-color: blanchedalmond;
     line-height: 1px;
-    text-align: center;
+    text-align: left;
+    contain: content;
 }
 
 .adress{
-    width: 70%;
-    height: 60%;
-
+    width: 100%-5px;
+    height: auto;  
 }
 .katt1{
     grid-area: katt1;
     flex-direction: column;
     background-color: cyan;
     line-height: 1px;
-    text-align: center;
+    text-align: left;
 }
 
 .katt2{
@@ -149,14 +151,14 @@ p{
     flex-direction: column;
     background-color: magenta;
     line-height: 1px;
-    text-align: center;
+    text-align: left;
 }
 .katt3{
     grid-area: katt3;
     flex-direction: column;
     background-color: orange;
     line-height: 1px;
-    text-align: center;
+    text-align: left;
 }
 
 body{
@@ -179,7 +181,7 @@ body{
     height: 100%;
     width: auto;
     font-size: medium;
-    text-align: center;
+    text-align: left;
 }
 
     
@@ -191,7 +193,7 @@ body{
     height: 100%;
     width: auto;
     font-size: medium;
-    text-align: center;
+    text-align: left;
 }
  .wrapper1{
     color: black;
@@ -200,7 +202,7 @@ body{
     background-color: beige;
     height: auto;
     width: auto;
-    text-align: center;
+    text-align: left;
 }
     
     
@@ -237,7 +239,7 @@ p{
     }
 
     .title{
-        text-align: center;
+        text-align: left;
     }
     
     .menu{
@@ -314,7 +316,7 @@ p{
         height: 100%;
         width: auto;
         font-size: x-large;
-        text-align: center;
+        text-align: left;
     }
 
     .wrapper1{
@@ -325,7 +327,7 @@ p{
         height: auto;
         width: auto;
         font-size: x-large;
-        text-align: center;
+        text-align: left;
 
     }
 
@@ -334,7 +336,7 @@ p{
         flex-direction: column;
         background-color: beige;
         line-height: 0px;
-        text-align: center;
+        text-align: left;
         font-size: large;
         
     }
@@ -344,7 +346,7 @@ p{
         flex-direction: column;
         background-color: beige;
         line-height: 0px;
-        text-align: center;
+        text-align: left;
         font-size: large;
     }
     
@@ -353,7 +355,7 @@ p{
         flex-direction: column;
         background-color: beige;
         line-height: 0px;
-        text-align: center;
+        text-align: left;
         font-size: large;
     }
     
@@ -362,7 +364,7 @@ p{
         flex-direction: column;
         background-color: beige;
         line-height: 0px;
-        text-align: center;
+        text-align: left;
         font-size: large;
     }
     
@@ -371,7 +373,7 @@ p{
         flex-direction: column;
         background-color: beige;
         line-height: 0px;
-        text-align: center;
+        text-align: left;
         font-size: large;
     }
     
@@ -383,7 +385,7 @@ p{
         height: 100%;
         width: auto;
         font-size: large;
-        text-align: center;
+        text-align: left;
     }
 
     .kattras6{
@@ -391,7 +393,7 @@ p{
         flex-direction: column;
         background-color: beige;
         line-height: 0px;
-        text-align: center;
+        text-align: left;
         font-size: large;
     }
     .kyatt-container {
@@ -415,7 +417,7 @@ p{
         display: flex;
         background-color: cyan;
         line-height: 15px;
-        text-align: center;
+        text-align: left;
         text-orientation: upright;
         contain: content;
     }
@@ -426,7 +428,7 @@ p{
         display: flex;
         background-color: magenta;
         line-height: 15px;
-        text-align: center;
+        text-align: left;
         contain: content;
     }
     .katt3{
@@ -435,12 +437,12 @@ p{
         display: flex;
         background-color: orange;
         line-height: 15px;
-        text-align: center;
+        text-align: left;
         contain: content;
     }
     .kattimg{
         width: 80%;
-        height: auto
+        height: 100%
     
     }
 
@@ -462,8 +464,8 @@ p{
     }
 
     .adress{
-        width: 70%;
-        height: 70%;   
+        width: 97.8%;
+        height: auto;  
     }
 
     .Katter{
@@ -479,7 +481,7 @@ p{
     }
     .kattimg{
         width: 100%;
-        height: auto;
+        height: 60%;
     }
     .jobbigtext{
         margin: 30px;
@@ -489,7 +491,7 @@ p{
         font-size: medium;
     }
     .adress{
-        width: 80%;
+        width: 93.5%;
         height: auto;
     }
     .Katter{
